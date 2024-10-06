@@ -18,7 +18,7 @@ We need to create 3 instances ( developer server , jenkins server , tomcat serve
 9. cd
 10. cd .ssh/
 11. cat id_rsa.pub (to check the key id )
-12. # go to github account add ssh-keygen in github
+12**go to github account add ssh-keygen in github**
 13.come back to terminal 
 14. cd /data 
 15.git pull the ssh of the project that you have in your repo 
@@ -26,7 +26,7 @@ We need to create 3 instances ( developer server , jenkins server , tomcat serve
 17. ls
 18. git branch -M main
 19. git branch 
-20. ### Done witht the developer server 
+20. **Done witht the developer server**
 
 
 ##########################################################################################################################################################

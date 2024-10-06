@@ -6,7 +6,7 @@ Instance created.
 
 We need to create 3 instances ( developer server , jenkins server , tomcat server ) # developer and tomcat server can have t2.micro 
 
-# Open developer server - connect the instance on terminal 
+**Open developer server - connect the instance on terminal**
 1. sudo su -
 2. hostnamectl set-hostname developer  
 3. bash 
@@ -46,7 +46,7 @@ We need to create 3 instances ( developer server , jenkins server , tomcat serve
 11.systemctl start jenkins
 12. Use the public ip of the instance  > :8080 to the ip , your jenkins server should open 
 13. come on terminal and shoot this command > cat /var/lib/jenkins/secrets/initialAdminPassword
-## you will get a password 
+**you will get a password**
 14. paste the password 
 15. username , password - admin - admin
 16. Configure 

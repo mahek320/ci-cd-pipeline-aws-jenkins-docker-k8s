@@ -1,11 +1,11 @@
 **Create an end to end CI/CD pipeline in AWS platform using Jenkins as the orchestration tool, Github as the SCM, Maven as the Build tool, Deploy in a docker instance and 
 create a Docker image, Store the docker image in ECR, Achieve Kubernetes deployment using the ECR image. Build a sample java web app using maven.**
 
-
-
 Create an ec2 instance ,t2.medium ( 2 core medium is used because jenkins is an orchestration tool ), created keypair , subnet-1a , security group - 8080 custom tcp  
 Instance created.
+
 We need to create 3 instances ( developer server , jenkins server , tomcat server ) # developer and tomcat server can have t2.micro 
+
 # Open developer server - connect the instance on terminal 
 1. sudo su -
 2. hostnamectl set-hostname developer  
@@ -18,7 +18,7 @@ We need to create 3 instances ( developer server , jenkins server , tomcat serve
 9. cd
 10. cd .ssh/
 11. cat id_rsa.pub (to check the key id )
-12.  # go to github account add ssh-keygen in github
+12. # go to github account add ssh-keygen in github
 13.come back to terminal 
 14. cd /data 
 15.git pull the ssh of the project that you have in your repo 

@@ -437,7 +437,7 @@ xxxxxxi. We will go to Github repository and add a new file that is index php fi
 
 xxxxxxii.We will paste the IP which we got through the kubectl svc command and add:8080/webapp/ after the IP for accessing the website.<br>
 
-**Our final output is here**<br>
+**Final output is here**<br>
 
 ![image](https://github.com/user-attachments/assets/b8086f89-59e3-4cba-9b05-8d468585d39d)
 
